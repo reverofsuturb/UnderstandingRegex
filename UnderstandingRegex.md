@@ -3,8 +3,8 @@
 This is a brief tutorial going over regex, short for regular expression, statements, which are a way of creating search patterns for matching text, providing us with a clear path of validation when it comes to user input. Using patterns which we create with regex statements we can also go through strings to find and replace characters as well as sequences.
 
 ## Summary
-Code: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
-We will be taking a look at a regex statement used to match an email and make sure that it is in an acceptable format. This could be used in a variety of ways, including validation for a user sign up on a website, or sifting through a large chunk of data and finding all email addresses within that.
+We will explore regex statements by looking at this expression: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+This regex statement can be used to match an email and make sure that it is in an acceptable format. This could be used in a variety of ways, including validation for a user sign up on a website, or sifting through a large chunk of data and finding all email addresses within that.
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ We will be taking a look at a regex statement used to match an email and make su
 ### Anchors
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
-Anchors in regex expressions signify the beginning and end of strings within an expression. In our expression we see the `^` at the beginning as well as the `$` symbol at the end, these are our anchors, since we are looking for an e-mail this is capturing the whole statement as one.
+Anchors in regex expressions signify the beginning and end of strings within an expression. In our expression we see the `^` at the beginning as well as the `$` symbol at the end, these are our anchors, since we are looking for an e-mail this is capturing the whole statement as one. The `/` at the beginning and the end of our statement are not anchors, regex expressions are literals and need to be wrapped with these. 
 
 ### Quantifiers
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
