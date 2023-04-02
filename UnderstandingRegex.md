@@ -105,5 +105,5 @@ Let's put everything together:
 And there we go, that's what our regex statement will do!
 
 ## Author
-
+I am currently student aspiring to be a developer.
 If you wish to contact me or have additional questions you can reach me at either my [github profile](https://github.com/reverofsuturb) or feel free to email me at [sfriedman6711@gmail.com](mailto:sfriedman6711@gmail.com)
